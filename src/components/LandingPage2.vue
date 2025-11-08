@@ -9,7 +9,7 @@
                 </div>
 
                 <!-- Mobile Toggle Button -->
-                <button class="navbar-toggler border-0 p-2" type="button" data-bs-toggle="collapse"
+                <!-- <button class="navbar-toggler border-0 p-2" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -18,7 +18,7 @@
                                 d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </span>
-                </button>
+                </button> -->
 
                 <div class="collapse navbar-collapse font-bold" id="navbarNav">
                     <ul
