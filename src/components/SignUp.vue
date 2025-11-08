@@ -70,7 +70,7 @@ export default {
         return {
             isLoading: false,
             form: {
-                name:'',
+                name: '',
                 email: "",
                 password: "",
             },
@@ -96,7 +96,14 @@ export default {
                 });
             } catch (error) {
                 console.log(error)
-                alert('sign up unsuccessful')
+                // alert('sign up unsuccessful')
+                Swal.fire({
+                    position: "center",
+                    icon: "error",
+                    title: "sign up unsuccessful",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
             }
             finally {
                 this.isLoading = false;
